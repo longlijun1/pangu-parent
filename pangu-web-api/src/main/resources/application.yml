@@ -1,0 +1,29 @@
+server:
+  port: 7010
+
+mybatis:
+  mapper-locations: classpath:com/chaos/pangu/web/biz/dao/mapper/*.xml
+  type-aliases-package: com.chaos.pangu.web.biz.model
+  configuration:
+    mapUnderscoreToCamelCase: true
+
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://39.107.67.236:3306/longlijun?useUnicode=true&characterEncoding=utf8&autoReconnect=true
+      username: longlijun
+      password: pWxE3FKppHLJ7d3a
+      driver-class-name: com.mysql.jdbc.Driver
+      initial-size: 1
+      max-active: 500
+      min-idle: 1
+      max-wait: 60000
+      pool-prepared-statements: true
+      max-pool-prepared-statement-per-connection-size: 20
+      validation-query: select 'x'
+      test-on-borrow: false
+      test-while-idle: true
+      test-on-return: false
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 30000
+      filters: config

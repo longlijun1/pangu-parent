@@ -20,6 +20,6 @@ public class OfficialAccountsRecordService implements IOfficialAccountsRecordSer
             e.printStackTrace();
             return false;
         }
-        return delete > 0 ? true : false;
+        return delete > 0;
     }
 }

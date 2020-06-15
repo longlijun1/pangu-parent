@@ -27,3 +27,8 @@ spring:
       time-between-eviction-runs-millis: 60000
       min-evictable-idle-time-millis: 30000
       filters: config
+
+
+security:
+  basic:
+    enabled: false

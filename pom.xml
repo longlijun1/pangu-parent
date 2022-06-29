@@ -28,7 +28,7 @@
     <springboot.durid.version>1.1.6</springboot.durid.version>
     <fastjson.version>1.2.40</fastjson.version>
     <sentinel.version>1.7.0</sentinel.version>
-    <org.apache.poi.version>3.17</org.apache.poi.version>
+    <org.apache.poi.version>4.1.1</org.apache.poi.version>
     <commons.version>2.6</commons.version>
   </properties>
 
